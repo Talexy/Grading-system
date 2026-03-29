@@ -7,7 +7,15 @@ int main() {
     char input[20];
     int score;
     char grade;
+    char more = 'y';
 
+    // ---NEW: open file ---
+    FILE *fp = fopen("grades.txt", "a");
+    if (fp == NULL) {
+        printf("Error opening file.\n");
+        return 1;
+    }
+    while(more == 'y' || more == 'Y') {
     printf("Enter firstname and surname: ");
     scanf("%s %s", firstname, surname);
 
@@ -40,6 +48,15 @@ int main() {
     }
 
     printf("%s %s %d Grade:%c\n", firstname, surname, score, grade);
+
+    // ---NEW: write to file ---
+    fprintf(fp, "%s %s %d Grade:%c\n", firstname, surname, score, grade);
+
+    printf("Do you want to enter another student? (y/n): ");
+    scanf(" %c", &more);
+    }
+    fclose(fp); //close file
+    printf("All grades saved to grades.txt!\n");
 
     return 0;
 }

@@ -1,0 +1,5 @@
+*.exe
+.vscode
+data.txt
+example-output.txt
+grades.c

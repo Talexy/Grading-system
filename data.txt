@@ -1,0 +1,14 @@
+Firstname Surname Score
+Tabitha Zachariah 70
+Wabomba Lukorito 34
+Wilson Zango 67
+Melissa McCathy 90
+James Spader 55
+Chris Pine 98
+Jane Sloan 21
+Regina Hall 33
+Gregory Willsburg 20
+Hellen Troy 44
+Andrew Mead
+Jaclyn Teressa 104
+Emily Blunt -20

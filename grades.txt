@@ -1,5 +1,5 @@
-Tabitha Zachariah 70 B
-Wabomba Lukorito 34 F
+Tabitha Zachariah 70 Grade:B
+Wabomba Lukorito 34 Grade:F
 Wilson Zango 67 Grade:C
 Melissa McCathy 90 Grade:A
 James Spader 55 Grade:D
@@ -11,4 +11,4 @@ Hellen Troy 44 Grade:E
 Andrew Mead 0 Grade:Y
 Jaclyn Teressa 104 Grade:X
 Emily Blunt -20 Grade:X
-W N 0 Grade:Y
+
